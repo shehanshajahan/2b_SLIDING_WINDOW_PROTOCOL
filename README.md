@@ -10,7 +10,7 @@ Implementation Of Sliding Window Protocol
 4. To send frames to server from the client side.
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
-## PROGRAM
+## PROGRAM :
 ## CLIENT:
 ```
 import socket
@@ -32,7 +32,7 @@ while True:
             print(ack)
             i+=s
 ```
-## SERVER:
+## SERVER :
 ```
 import socket
 s=socket.socket()
@@ -45,5 +45,5 @@ while True:
 ![Screenshot 2025-03-19 103636](https://github.com/user-attachments/assets/e514bf7a-eeb3-4478-8a19-91940ed2e8f9)
 ![Screenshot 2025-03-19 103719](https://github.com/user-attachments/assets/f203ddf6-5503-46ca-9a8d-ba76f6603fc9)
 
-## RESULT
+## RESULT :
 Thus, python program to perform stop and wait protocol was successfully executed
